@@ -5,7 +5,7 @@ public class FileRead {
         try{
             FileReader fr=new FileReader("input.txt");
             BufferedReader br=new BufferedReader(fr);
-            String line = "";
+            String line = "";       
             int lineNo=1;
             while (line!=null) {
                 line = br.readLine();
