@@ -29,7 +29,6 @@ class Producer extends Thread {
         this.message = message;
     }
 
-    @Override
     public void run() {
         try {
             message.produceMessage("Hello");
@@ -45,8 +44,6 @@ class Consumer extends Thread {
     public Consumer(Message message) {
         this.message = message;
     }
-
-    @Override
     public void run() {
         try {
             message.consumeMessage();
