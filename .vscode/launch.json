@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FileCopy",
+            "request": "launch",
+            "mainClass": "FileCopy",
+            "projectName": "Java Programs_d56e3ebe"
+        },
+        {
+            "type": "java",
+            "name": "FileRead",
+            "request": "launch",
+            "mainClass": "FileRead",
+            "projectName": "Java Programs_d56e3ebe"
+        },
+        {
+            "type": "java",
+            "name": "ThreadSyncro",
+            "request": "launch",
+            "mainClass": "ThreadSyncro",
+            "projectName": "Java Programs_d56e3ebe"
+        },
+        {
+            "type": "java",
+            "name": "secondSmall",
+            "request": "launch",
+            "mainClass": "secondSmall",
+            "projectName": "Java Programs_d56e3ebe"
+        },
+        {
+            "type": "java",
+            "name": "sing",
+            "request": "launch",
+            "mainClass": "sing",
+            "projectName": "Java Programs_d56e3ebe"
+        },
+        {
+            "type": "java",
+            "name": "stringRev",
+            "request": "launch",
+            "mainClass": "stringRev",
+            "projectName": "Java Programs_d56e3ebe"
+        },
+        {
+            "type": "java",
+            "name": "waitNotif",
+            "request": "launch",
+            "mainClass": "waitNotif",
+            "projectName": "Java Programs_d56e3ebe"
+        }
+    ]
+}
