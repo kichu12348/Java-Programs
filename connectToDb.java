@@ -4,7 +4,10 @@ public class connectToDb {
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("url", "username","password");
+            String url = System.getenv("DB_URL");
+            String username = System.getenv("DB_USERNAME");
+            String password = System.getenv("DB_PASSWORD");
+            Connection con = DriverManager.getConnection(url, username, password);
             Statement stmt = con.createStatement();
             
             //create table
